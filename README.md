@@ -1,14 +1,13 @@
 # language-forge
 Create fantasy languages for use in RPGs and Videogames
 
-python 3 for unicode fun
-
+# Contribution
 Want to contribute? Create an issue so I know what you're working on and then make a PR when you're done!
 
-# TO-do
-Handle contractions
-Add a few more example languages
-Add api front end
+# To-do
+* Handle contractions
+* Add a few more example languages
+* Add api front end
 
 # How it works
 Language forge uses a set of rules defined in a language class (for example, `high_common.py`). These rules consist of an array of tuples with which to encode the English, and optionally, an override of the syntax parsing allowing users to restructure a sentence based on part of speech tagging. Additionally, it is possible to "strip" different parts of speech using an array of tags. See comments for more info
